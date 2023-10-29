@@ -1,0 +1,416 @@
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.09);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar__img {
+    display: inline-block;
+    height: 100%;
+    width: 49.7%;
+}
+
+.navbar__img img {
+    width: 175px;
+    padding-top: 6px;
+}
+
+.navbar__links {
+    display: inline-block;
+    width: 49.9%;
+    vertical-align: top;
+    text-align: right;
+    padding-left: 0;
+    margin: 0;
+}
+
+.navbar__links a {
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    text-decoration: none;
+    color: #595959;
+}
+
+.menu {
+    display: inline-block;
+    padding: 15px 13.5px;
+}
+
+.active {
+    border-top: 3px solid #ae9768;
+}
+
+.active a {
+    color: black;
+}
+
+/* *********home section****** */
+
+.home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 56px 320px;
+}
+
+.home__title {
+    padding: 235px 0 107px;
+}
+
+.home__title h4 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.home__title h1 {
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.home__title p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.home__title button {
+    padding: 15px 28px;
+    border-radius: 3px;
+    color: white;
+}
+
+.home__title .btn1 {
+    background-color: #ae9768;
+    border: none;
+}
+
+.home__title .btn2 {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
+.shape {
+    width: 25px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: auto;
+}
+
+/* *************who are you ****** */
+
+.who__we__are {
+    margin: 50px 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.who__img {
+    display: inline-block;
+    width: 49%;
+    margin-right: 45px;
+}
+
+
+.who__img img {
+    width: 95%;
+}
+
+.who__paragraph {
+    display: inline-block;
+    width: 46%;
+    color: #686868;
+    vertical-align: top;
+}
+
+.who__paragraph h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+}
+
+.who__paragraph p {
+    font-size: 17px;
+    line-height: 31px;
+}
+
+.who__item p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.who__icon {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.who__icon i {
+    color: #8E7754;
+    padding-top: 11px;
+}
+
+/* *******Our location ******* */
+
+.clear {
+    clear: both;
+}
+
+.our__location {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+
+.our__location__paragraph {
+    float: left;
+    width: 46%;
+    vertical-align: top;
+    margin-right: 46px;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-top: 60px;
+}
+
+.our__location__paragraph h2 {
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+
+.our__location__paragraph p {
+    line-height: 35px;
+    margin-top: 30px;
+    font-size: 17px;
+    color: #686868;
+}
+
+.our__location__img {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.our__location__img img {
+    width: 95%;
+}
+
+/* ********out baking****** */
+
+.our__baking {
+    margin: 50px 0;
+}
+
+.baking__title {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.baking__title h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.our__baking p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    color: #888;
+    line-height: 30px;
+}
+
+.baking__img {
+    margin-top: 50px;
+}
+
+.baking__card {
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.baking__card img {
+    width: 100%;
+}
+
+.baking__card h3 {
+    margin: 25px 0;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+
+/* ******* contact information ****** */
+
+
+.contact__information {
+    margin: 50px 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.contact__img {
+    float: left;
+    width: 49%;
+    margin-left: 45px;
+    text-align: right;
+}
+
+
+.contact__img img {
+    width: 100%;
+}
+
+.contact__paragraph {
+    float: left;
+    width: 46%;
+    color: #686868;
+    vertical-align: top;
+
+}
+
+.contact__paragraph h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+}
+
+.contact__paragraph p {
+    font-size: 17px;
+    line-height: 31px;
+}
+
+.contact__item p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.contact__icon {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #8E7754;
+}
+
+.contact__icon i {
+    color: white;
+    padding-top: 11px;
+    font-size: 19px;
+}
+
+/* ********** footer ********** */
+
+.footer {
+    background-color: #403D38;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer__list {
+    float: left;
+    width: 23%;
+    margin-right: 24px;
+}
+
+.footer__list h3 {
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+
+.footer__list p {
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 29px;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.list__group {
+    list-style: none;
+    padding: 0;
+}
+
+.list__group li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 29px;
+}
+
+.list__group li p {
+    padding: 10px 0;
+}
+
+.list__group i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.footer__background {
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+
+/* ********* copy rights ********* */
+
+.copy__rights {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.copy__rights p {
+    margin: 30px 0;
+    font-size: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #777777;
+}
+
+.copy__rights .contact__icon {
+    background-color: #484540;
+    margin-right: 3px;
+    
+}
+
+.copy__rights .contact__icon i {
+    color: rgb(140, 138, 134);
+}
+
+/* 
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Alegreya', serif;
+*/
